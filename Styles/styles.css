@@ -240,16 +240,27 @@ header .container{
     }
 
     .players{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .courses{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         grid-row-gap: 25px;
     }
 }
 
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
-    
+    .container{
+        width: 700px;
+    }
+
+    .players{
+        grid-template-columns: 1fr;
+    }
+
+    .courses{
+        grid-template-columns: 1fr;
+        grid-row-gap: 25px;
+    }
 }
